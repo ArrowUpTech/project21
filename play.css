@@ -1,0 +1,92 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fb;
+  padding: 20px;
+}*/
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.why-choose-us {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerWhy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Reason styles */
+.reasons-left, .reasons-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reason h2 {
+  font-size: 1.8em;
+  color: #007bff;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.reason p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Image styles */
+.image-box {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+}
+
+.image-box img {
+  max-width: 60%;
+  height: auto;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .containerWhy {
+      flex-direction: column;
+  }
+
+  .reasons-left, .reasons-right {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  h1 {
+      font-size: 2em;
+  }
+
+  .reason h2 {
+      font-size: 1.5em;
+  }
+
+  .reason p {
+      font-size: 1em;
+  }
+/* 
+  .image-box {
+      margin: 20px 0;
+  } */
+}
