@@ -1160,7 +1160,7 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
+/* .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
 
@@ -1274,7 +1274,7 @@ section,
     position: static;
     left: auto;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Call To Action Section
@@ -1341,7 +1341,7 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+/* .portfolio .portfolio-filters {
   padding: 0 0 20px 0;
   margin: 0 auto;
   list-style: none;
@@ -1424,7 +1424,7 @@ section,
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
-}
+} */
 
 /*--------------------------------------------------------------
 # Team Section
@@ -1507,11 +1507,18 @@ section,
   left: 0;
   transition: left ease-in-out 0.3s;
 }
+.rowContainer{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
-.pricing .pricing-item {
+/* .pricing .pricing-item {
   background-color: var(--surface-color);
   box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
   border-top: 4px solid var(--background-color);
@@ -1620,12 +1627,12 @@ section,
     max-width: 100%;
     margin: 0 auto 30px auto;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
-.faq .faq-item {
+/* .faq .faq-item {
   margin: 20px 0;
   padding: 20px 0;
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -1656,12 +1663,12 @@ section,
   border: 0;
   padding-bottom: 0;
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-item {
+/* .contact .info-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 24px 0 30px 0;
@@ -1744,12 +1751,12 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+/* .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
@@ -1806,7 +1813,7 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
+} */
 
 /*--------------------------------------------------------------
 # Service Details Section
@@ -1945,9 +1952,7 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+
 
 .flexshot{
   display: flex;
@@ -2073,3 +2078,7 @@ color: var(--heading-color);
       margin: 20px 0;
   } */
 }
+
+/* .hrcolor{
+  color: #ed502e;
+} */
